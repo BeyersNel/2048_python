@@ -25,19 +25,19 @@ pos_y = 0
 
 while True:
     if keyboard.is_pressed('left'):
-        if pos_x > 0:
-            pos_x -= 1
+        print('left')
+        time.sleep(0.4)
     if keyboard.is_pressed('right'):
-        if pos_x < 2:
-            pos_x += 1
-
+        print('right')
+        time.sleep(0.4)
     if keyboard.is_pressed('down'):
-
+        print('down')
         time.sleep(0.4)
     if keyboard.is_pressed('up'):
-
+        print('up')
         time.sleep(0.4)
     if keyboard.is_pressed('escape'):
+        print('esc')
+        time.sleep(0.4)
 
-        break
-    time.sleep(0.4)
+    break
